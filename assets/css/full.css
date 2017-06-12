@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+html, body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0
+}
+
+#block-one {
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-image: url('../img/block-one-bg.jpg');
+    border-right-width: 8px;
+}
+
+#block-one #bottom-one {
+    font-size: 3rem;
+    color: white;
+    line-height: 3.5rem;
+    margin-top: 20rem;
+    text-align: center;
+}
+
+#block-two {
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-image: url('../img/block-two-bg.jpg');
+    border-left-width: 8px;
+}
+
+#coming-soon {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#coming-soon div {
+    display: inline-block;
+    border: 5px solid white;
+}
+
+#coming-soon p {
+    font-size: 5rem;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid black;
+    margin: 0;
+
+}
+
+#curve img {
+    max-width: 5rem;
+}
+
+.fat-white-borders {
+    border: 16px solid white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.full {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+}
+
+#join-button {
+    float: left;
+    margin-right: 5px;
+}
+
+#logo {
+    margin-top: 20rem;
+    text-align: center;
+}
+
+#logo hr {
+    margin-top: 4rem;
+    border: 1px solid lightgrey;
+    width: 80%;
+}
+
+#logo img {
+    width: 50%;
+    text-align: center;
+}
+
+#m-chimp {
+    border: 1px solid white;
+    display: inline-block;
+    padding: 15px 20px;
+    margin-top: 5rem;
+}
+
+#v-center {
+    margin: 42% auto;
+    text-align: center;
+}
+
+#v-center p {
+    font-size: 2rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+#v-center #m-chimp p {
+	float: left;
+    margin: 6px 0 0 10px;
+    font-size: 1.6rem;
+}
