@@ -80,7 +80,6 @@ html, body {
 
 #logo hr {
     margin-top: 4rem;
-    border: 1px solid lightgrey;
     width: 80%;
 }
 
@@ -108,7 +107,65 @@ html, body {
 }
 
 #v-center #m-chimp p {
-	float: left;
+    float: left;
     margin: 6px 0 0 10px;
     font-size: 1.6rem;
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    #block-one {
+        border-right-width: 16px;
+        border-bottom-width: 8px;
+    }
+
+    #block-two {
+        border-left-width: 16px;
+        border-top-width: 8px;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    #block-one {
+        border-width: 8px;
+        border-bottom-width: 4px;
+    }
+
+    #block-two {
+        border-width: 8px;
+        border-top-width: 4px;
+    }
+
+    #block-one #bottom-one {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 14rem;
+    }
+
+    #join-button {
+        margin-right: 0px;
+        font-size: 1.2rem;
+    }
+
+    #logo {
+        margin-top: 10rem;
+    }
+
+    #logo img {
+        width: 70%;
+    }
+
+    #coming-soon {
+        margin-top: 3.5rem;
+    }
+
+    #coming-soon p {
+        font-size: 2.5rem;
+        padding: 5px 10px;
+    }
+
+    #v-center #m-chimp p {
+        margin: 7px 0 0 8px;
+        font-size: 1.2rem;
+    }
 }
